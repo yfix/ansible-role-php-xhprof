@@ -1,6 +1,6 @@
 # Ansible Role: PHP-XHProf
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-php-xhprof.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-php-xhprof)
+[![Build Status](https://travis-ci.org/yfix/ansible-role-php-xhprof.svg?branch=master)](https://travis-ci.org/yfix/ansible-role-php-xhprof)
 
 Installs PHP [XHProf](http://php.net/manual/en/book.xhprof.php) on Linux servers.
 
@@ -16,19 +16,11 @@ Available variables are listed below, along with default values (see `defaults/m
 
 ## Dependencies
 
-  - geerlingguy.php
-  - geerlingguy.php-pecl
+  - yfix.php
+  - yfix.php-pecl
 
 ## Example Playbook
 
     - hosts: webservers
       roles:
-        - { role: geerlingguy.php-xdebug }
-
-## License
-
-MIT / BSD
-
-## Author Information
-
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+        - { role: yfix.php-xdebug }
